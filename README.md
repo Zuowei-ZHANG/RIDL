@@ -5,7 +5,7 @@ This is the supplementary of RIDL for the paper ["Representation of Imprecision 
 
 `Detailed_examples_of_manually_report` folder: We reported the label correction of training images on different dataset in detail. NI represent the number of initial uncertainty samples that Identified by the first step of RIDL. NF represent the number of final uncertainty samples that manually corrected by human annotators. NM represent the number of manually corrected samples. Here are the detailed examples.
 
-Table 3 The report of the samples need to be manually corrected by human annotators on different dataset.
+![image](​ ​https://github.com/Zuowei-ZHANG/RIDL/blob/2e15e066a6f409b5e1e6e6165bb26436ff15cdc4/table.bmp​​)
 
 
 `per_class_confusion_matrix.xlsx`: We counted the confusion matrices for all results and provide a detailed per-class analysis data.
