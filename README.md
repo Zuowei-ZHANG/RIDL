@@ -8,17 +8,17 @@ Codes for  basic cnn models are in the file `cnn_models`
 ## To get the potential labels
 The file `main_function.py` provides a demo about how to get the potential labels and their corresponding manually checked labels after training, which are files `y_dot_alpha-x.xx_DCNN-1.txt`, `y_dot_alpha-x.xx_DCNN-2.txt`.
 
-## To train the DCNN model
-The file `DCNN.py` obtained the ultimate results, which contains parameters for selecting the dataset and different benchmark models. 
+## To train the RIDL model
+The file `RIDL.py` obtained the ultimate results, which contains parameters for selecting the dataset and different benchmark models. 
 
 ## Evaluation code
-Evaluation code is `evaluation.py`,which will be called in `DCNN.py`.
+Evaluation code is `evaluation.py`,which will be called in `RIDL.py`.
 
 ## Pre-trained models
 
 Because manually checked also costs a lot of time, and to facilitate viewing the results and save time, we save corresponding 'y_dot' file and the pre-trained parameters, by modifying the value of the `switch`. These files are located in the `model_dataset` folder, We save the parameter files for different datasets on different benchmark models when alpha=0.01 and data errer rate=0.01, which will facilitate the replication of experimental data.
 
-Model parameter files are saved as .pkl files. To use the pre-trained parameters simply make `switch=1` and run `DCNN.py`. 
+Model parameter files are saved as .pkl files. To use the pre-trained parameters simply make `switch=1` and run `RIDL.py`. 
 
 The file `model_dataset` includes the parameters of some trained DCNN  that are used in the demo. These parameter files are saved in `model_saved`.
 ## Data set description
