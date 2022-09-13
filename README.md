@@ -8,6 +8,6 @@ Folder `Detailed_examples_of_manually_report`: We reported the label correction 
 ![image](https://github.com/Zuowei-ZHANG/RIDL/blob/50500428234063429fe88c19f551bdeb4671b849/table.png)
 
 
-`per_class_confusion_matrix.xlsx`: We counted the confusion matrices for all results and provide a detailed per-class analysis data in folder `per_class_confusion_matrix`.
+File `per_class_confusion_matrix.xlsx`: We counted the confusion matrices for all results and provide a detailed per-class analysis data in folder `per_class_confusion_matrix`.
 
 <!--We sincerely hope that our revised manuscript is now suitable for publication and that it will interest the readers of IEEE Transactions on Image Processing.-->
